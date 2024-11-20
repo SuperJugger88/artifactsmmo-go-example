@@ -7,7 +7,7 @@ cp .env.example .env
 ```
 
 When you're ready, start your application by running:
-`docker compose up --build`.
+`make up`.
 
 ### Deploying your application to the cloud
 

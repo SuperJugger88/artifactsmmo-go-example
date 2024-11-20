@@ -15,7 +15,7 @@ type MoveRequest struct {
 
 func MovePlayer(url string, token string) {
 	move := MoveRequest{
-		X: -1,
+		X: 0,
 		Y: 1,
 	}
 

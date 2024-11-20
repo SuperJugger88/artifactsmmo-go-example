@@ -10,6 +10,8 @@
 services:
   server:
     build:
+      args:
+        GO_VERSION: '${GO_VERSION}'
       context: .
       target: final
     env_file:
