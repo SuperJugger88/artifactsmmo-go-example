@@ -1,5 +1,11 @@
 ### Building and running your application
 
+First of all, you have to set and fill up environment variables:
+
+```bash
+cp .env.example .env
+```
+
 When you're ready, start your application by running:
 `docker compose up --build`.
 
